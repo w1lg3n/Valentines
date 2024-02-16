@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    background-color: #FFCFA3;
+}
+.head{
+    position: relative;
+    height: 100px;
+}
+.title{
+    height: 1px;
+    text-align: center;
+    color: #ffff;
+    font-size: 80px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 200;
+    font-style: normal;
+}
+.main {
+    background-color: rgba(255, 222, 190, 0.5); /* Transparent background */
+    height: 400px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(31, 30, 30, 0.1); /* Add shadow */
+}
+.subtitle{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(0, 0, 15, 0.3);
+}
+.hearts-container {
+    height: 1px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+  
+.heart {
+    font-size: 30px;
+    color: #FCB293;
+    margin: 0 5px 0; /* Adjust the margin as needed */
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 60px; 
+    text-decoration: none; 
+}
+.popup {
+    overflow-y: auto;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 530px;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1000;
+  }
+  
+  .initial{
+    height: 200px;
+    width: 200px;
+  }
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+ .letter-content{
+    display: flex;
+    flex-direction: column;
+  }
+ .letter-content .letter{
+    float: left;
+    font-size: 25px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .initial2{
+    height: 300px;
+    width: 300px;
+  }
+  .poem{
+    font-size: 25px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  .initial3{
+    height: 300px;
+    width: 500px;
+  }
+  .ticket{
+    padding: 20px 0 0 0;
+    font-size: 25px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .galleryy{
+    height: 1px;
+    text-align: center;
+    color: #ffff;
+    font-size: 80px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .scroll-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 40px 10px 10px 10px;
+    }
+
+    .gallery{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .scroll-container img {
+    padding: 10px;
+    }
